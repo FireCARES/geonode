@@ -150,7 +150,7 @@ setup(name='GeoNode',
 
         # haystack/elasticsearch, uncomment to use
         "django-haystack>=2.4.1",
-        "elasticsearch>=2.4.0",
+        "elasticsearch<2.0.0",
         "pyelasticsearch>=0.6.1",
         "celery>=3.1.17",
         "django-celery>=3.1.16",
